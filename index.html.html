@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Birthday Surprise For Aditi</title>
+
+<link rel="stylesheet" href="birthday.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<audio id="song" >
+<source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3">
+</audio>
+
+<div id="particles"></div>
+
+<!-- PAGE 1 -->
+
+<section class="page active" id="p1">
+
+<h1 class="fade">Hey Aditi 🎂</h1>
+
+<p class="fade delay">
+Someone made a small magical surprise just for you ✨
+</p>
+
+<button class="btn" onclick="next(2)">Start Surprise 💖</button>
+
+</section>
+
+<!-- PAGE 2 -->
+
+<section class="page" id="p2">
+
+<h1 class="fade">Happy Birthday Aditi 🎉</h1>
+
+<p class="fade delay">
+May your smile always stay this beautiful 😊  
+and may today bring you lots of happiness 🌸
+</p>
+
+<button class="btn" onclick="next(3)">Next Surprise 🎁</button>
+
+</section>
+
+<!-- PAGE 3 SONG -->
+
+<section class="page" id="p3">
+
+<h1>A Song For You 🎵</h1>
+
+<p>Music makes moments magical</p>
+
+<button class="btn" onclick="play()">Play Song 🎶</button>
+
+<br><br>
+
+<button class="btn" onclick="next(4)">Next Surprise</button>
+
+</section>
+
+<!-- PAGE 4 WISH -->
+
+<section class="page" id="p4">
+
+<h1 class="wishes">Special Wishes 💌</h1>
+
+<p class="wish">
+Aditi, you make normal school days feel special.  
+Your smile, your energy, and your presence make everything brighter.  
+I hope your birthday is filled with joy, laughter, and sweet memories 🌸
+</p>
+
+<button class="btn" onclick="next(5)">Next Surprise</button>
+
+</section>
+
+<!-- PAGE 5 MEMORIES -->
+
+<section class="page" id="p5">
+
+<h1>Memories With You </h1>
+
+<div class="gallery">
+
+<img src="aditi1.jpg" class="img1">
+<img src="adiandme.jpg" class="img2">
+<img src="cute.jpg" class="img3">
+
+</div>
+
+
+<button class="btn" onclick="next(6)">Next Surprise</button>
+
+</section>
+
+<!-- PAGE 6 COMPLIMENTS -->
+
+<section class="page" id="p6">
+
+<h1>Compliments For Aditi ✨</h1>
+
+<ul class="compliments">
+
+<li>🌸 Your smile is really beautiful</li>
+<li>🌸 You make people around you happy</li>
+<li>🌸 Your personality is amazing</li>
+<li>🌸 You are truly special</li>
+
+</ul>
+
+<button class="btn" onclick="next(7)">Final Surprise 🎆</button>
+
+</section>
+
+<!-- PAGE 7 FINAL -->
+
+<section class="page" id="p7">
+
+<h1>You're Amazing Aditi 💖</h1>
+
+<p class="wish2">
+Maybe I’m not perfect with words…  
+But I wanted to create something special for your birthday.  
+I hope this little surprise made you smile 😊
+</p>
+
+<button class="btn" onclick="fireworks()">Click For Magic 🎇</button>
+
+</section>
+
+<script src="birthday.js"></script>
+
+</body>
+</html>
